@@ -117,7 +117,7 @@ export default function Login( { user } ) {
       )
     } else {
       return (
-        <h2 className='login_header'>SUCCESSFULLY LOGGED IN!</h2>
+        <h2 className='login-header'>SUCCESSFULLY LOGGED IN!</h2>
       )
     }
   }
