@@ -16,7 +16,7 @@ function App() {
     <div>
       
       {newUser ? <Login user={registrationScreen} /> : <Register user={registrationScreen}/>}
-
+      
     </div>
   );
 }

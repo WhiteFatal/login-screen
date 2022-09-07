@@ -24,11 +24,12 @@
 }
 
 .login-screen-container {
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 20px rgb(67, 82, 3);
   padding: 30px 50px;
   border-radius: 20px;
   background-color: var(--color-dark);
-  min-width:  500px;
+  width:  500px;
+  min-width:  320px;
   z-index: 3;
 }
 
@@ -75,6 +76,7 @@
   font-size: 1.5rem;
   margin: 5px 0;
   outline: none;
+  padding: 0 20px;
 }
 
 .input-element:focus{
@@ -107,6 +109,7 @@
 .login-btn:hover,
 .login-btn:focus {
   box-shadow: 0 0 20px 3px gold;
+  transition: 0.2s;
 }
 
 .registration-link {
@@ -118,6 +121,7 @@
 .registration-link:hover {
   text-shadow: 0 0 30px gold;
   color: gold;
+  transition: 0.2s;
 }
 
 
@@ -126,6 +130,7 @@
   position: absolute;
   top: -90px;
   animation: fall 9000ms infinite linear forwards;
+  color: gold;
 }
 
 @keyframes fall {

@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+//import leaf1 from './leaf1.png'
 
 export default function Leaf() {
 
@@ -32,7 +33,7 @@ export default function Leaf() {
 
     return (
       <img 
-        src={`leafimages/leaf${leafs}.png`}
+        src={`${process.env.PUBLIC_URL}/leafimages/leaf${leafs}.png`}
         className='fallen-leaf'
         alt='dried leaf'
         style={
