@@ -32,6 +32,12 @@
   min-width:  320px;
   z-index: 3;
 }
+@media screen and (max-width: 500px) {
+  .login-screen-container {
+    height: 100%;
+    border-radius: 0px;
+  }
+}
 
 .login-header {
   margin: 0px;
